@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.wrap {
+    width: fit-content;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table td, table th {
+    padding: 1rem;
+}
+
+table tr {
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+}
+
+section {
+    width: 100%;
+}
+
+section label, form input {
+    display: block;
+}
+
+section {
+    margin-top: 2rem;
+}
+
+section input {
+    width: 100%;
+}
+
+section button {
+    margin-top: 1rem;
+}
